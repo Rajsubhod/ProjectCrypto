@@ -2,6 +2,7 @@ package com.rajsubhod.projectcrypto.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.dynamicDarkColorScheme
@@ -239,6 +240,24 @@ private val highContrastDarkColorScheme = darkColorScheme(
     surfaceContainerHigh = surfaceContainerHighDarkHighContrast,
     surfaceContainerHighest = surfaceContainerHighestDarkHighContrast,
 )
+
+//Custom Color Scheme
+val ColorScheme.success: Color
+    @Composable
+    get() = if (isSystemInDarkTheme()) successLightHighContrast else successDarkHighContrast
+
+val ColorScheme.onSuccess: Color
+    @Composable
+    get() = if (isSystemInDarkTheme()) onSuccessLightHighContrast else onSuccessDarkHighContrast
+
+val ColorScheme.successContainer: Color
+    @Composable
+    get() = if (isSystemInDarkTheme()) successContainerLightHighContrast else successContainerDarkHighContrast
+
+val ColorScheme.onSuccessContainer: Color
+    @Composable
+    get() = if (isSystemInDarkTheme()) onSuccessContainerLightHighContrast else onSuccessContainerDarkHighContrast
+
 
 @Immutable
 data class ColorFamily(
