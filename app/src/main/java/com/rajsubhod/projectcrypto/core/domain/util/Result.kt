@@ -1,4 +1,4 @@
-package com.rajsubhod.projectcrypto.util
+package com.rajsubhod.projectcrypto.core.domain.util
 
 typealias DomainError = Error
 
