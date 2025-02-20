@@ -1,4 +1,4 @@
-package com.rajsubhod.projectcrypto.util
+package com.rajsubhod.projectcrypto.core.presentation.util
 
 import com.rajsubhod.projectcrypto.R
 

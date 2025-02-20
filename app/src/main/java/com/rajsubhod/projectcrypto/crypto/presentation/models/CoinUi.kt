@@ -3,7 +3,7 @@ package com.rajsubhod.projectcrypto.crypto.presentation.models
 import android.icu.text.NumberFormat
 import androidx.annotation.DrawableRes
 import com.rajsubhod.projectcrypto.crypto.domain.Coin
-import com.rajsubhod.projectcrypto.util.getDrawableIdForCoin
+import com.rajsubhod.projectcrypto.core.presentation.util.getDrawableIdForCoin
 import java.util.Locale
 
 
