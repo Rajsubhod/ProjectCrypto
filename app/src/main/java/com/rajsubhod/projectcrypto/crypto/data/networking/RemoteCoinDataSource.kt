@@ -8,7 +8,7 @@ import com.rajsubhod.projectcrypto.core.domain.util.map
 import com.rajsubhod.projectcrypto.crypto.data.mappers.toCoin
 import com.rajsubhod.projectcrypto.crypto.domain.Coin
 import com.rajsubhod.projectcrypto.crypto.domain.CoinDataSource
-import com.rajsubhod.projectcrypto.crypto.domain.CoinsResponseDto
+import com.rajsubhod.projectcrypto.crypto.data.networking.dto.CoinsResponseDto
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 
